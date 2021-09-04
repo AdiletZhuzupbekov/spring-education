@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: spring-education-application
+  datasource:
+    url: jdbc:postgresql://localhost:5433/education
+    username: postgres
+    password: postgress

@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=postgress
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=education
+    ports:
+      - 5433:5432
